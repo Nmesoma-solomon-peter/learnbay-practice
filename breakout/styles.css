@@ -1,0 +1,35 @@
+body{
+    background-color: #E9E9E9;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    padding-top:100px;
+    padding-bottom:150px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: 1px solid black;
+    background-color: #fff;
+    z-index: 10;
+    border: 1px solid #fff;
+}
+
+input{
+    padding: 15px;
+    margin-bottom: 10px;
+}
+button{
+    background-color: #DA3B57;
+    border: 1px solid #DA3B57;
+    color:#fff;
+    font-size: 20px;
+    margin-top:15px ;
+    width: 200px;
+    height: 50px;
+    margin-left: 400px;
+}
+h3{
+    color:#DA3B57;
+    font-size: 30px;
+}

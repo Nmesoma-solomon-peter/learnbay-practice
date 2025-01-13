@@ -1,0 +1,33 @@
+.hero{
+    color: #fff;
+}
+.heroH1{
+    margin-top: 10px;
+    padding-top: 3rem;
+    margin-left: 9px;
+    font-size: 3.4rem;
+    width: 20rem;
+    text-align: center;
+    
+}
+.heroP{
+    width: 30rem;
+    margin-top: 1.3rem;
+    margin-left:19px;
+}
+.playBtn{
+    background-color: #fff;
+    border: 1px solid #fff;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 3px;
+    margin: 13px 10px 0px 19px;
+}
+.moreBtn{
+    background-color: #4D4E4C;
+    width: 5rem;
+    height: 2rem;
+    color: #fff;
+    border: 1px solid #4D4E4C;
+    border-radius: 3px;
+}

@@ -1,0 +1,95 @@
+/* .homeBox{
+    background-color:#fff;
+    width: 100vw;
+    height: 100vh;
+}
+
+.introDiv{
+    background-color: #A42FC1;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px ;
+    color:#fff;
+    width: 100%;
+    height: 70vh;
+    padding: 8em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.introDivH2{
+    font-size: 3rem;
+}
+.introDivH4{
+    font-size: 2rem;
+    margin-bottom: 1em;
+} */
+/* .introText{ */
+   /* font-family: "poppins",sans-serif; */
+/* } */
+
+/* Homepage.css */
+
+/* Import Poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+
+.homeBox {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  width: 90%;
+  backdrop-filter: blur(10px);
+}
+
+.introDivH2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.introDivH4 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.introText {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #ff7e5f;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff6a3d;
+  transform: scale(1.05);
+}
+
+button:focus {
+  outline: none;
+}

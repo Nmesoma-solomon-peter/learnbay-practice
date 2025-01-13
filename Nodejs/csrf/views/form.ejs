@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/recform" method="post">
+        <input type="text" name="sendername" placeholder="sendername">
+        <input type="text" name="receivername" placeholder="receivername">
+        <input type="number" name="amount" placeholder="amount">
+        <input type="text" name="_csrf" value="<%=token%>">
+        <button>submit</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,153 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #e0e0e0;
+    color: #2c3e50;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.darkMode {
+    background-color: #1e1e1e;
+    color: #ecf0f1;
+}
+
+/* Toggle Icon styling */
+i {
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #3498db;
+    transition: color 0.3s ease;
+}
+
+body.darkMode i {
+    color: #e74c3c;
+}
+
+/* Form container */
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+    border: 2px solid #bdc3c7;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+body.darkMode div {
+    background-color: #2c3e50;
+    border-color: #34495e;
+}
+
+/* Input styling */
+input {
+    padding: 15px;
+    width: 280px;
+    border: 2px solid #bdc3c7;
+    border-radius: 15px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+body.darkMode input {
+    background-color: #34495e;
+    color: #ecf0f1;
+    border-color: #444;
+}
+
+body.darkMode input:focus {
+    border-color: #e74c3c;
+}
+
+/* Button styling */
+button {
+    padding: 15px 30px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+}
+
+body.darkMode button {
+    background-color: #e74c3c;
+}
+
+body.darkMode button:hover {
+    background-color: #c0392b;
+}
+
+/* Password container styling */
+#password-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #bdc3c7;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+body.darkMode #password-container {
+    background-color: #2c3e50;
+    border-color: #34495e;
+}
+
+/* Generated password styling */
+h2 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: inherit;
+}
+
+h2 i {
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #3498db;
+    transition: color 0.3s ease;
+}
+
+h2 i:hover {
+    color: #2980b9;
+}
+
+body.darkMode h2 i {
+    color: #e74c3c;
+}
+
+body.darkMode h2 i:hover {
+    color: #c0392b;
+}
